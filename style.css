@@ -1,0 +1,132 @@
+/* =========================
+   GLOBAL STYLE
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+/* =========================
+   TEXT & CONTENT
+========================= */
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* =========================
+   LIST
+========================= */
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* =========================
+   TABLE
+========================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* =========================
+   IMAGE
+========================= */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* =========================
+   BUTTON (opsional)
+========================= */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+}
